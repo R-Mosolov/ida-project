@@ -1,8 +1,32 @@
 {
-  "Logo": {
-    "description": "Auto imported from /components/Logo.vue"
+  "Bin": {
+    "description": "Auto imported from /components/Bin.vue"
   },
-  "LazyLogo": {
-    "description": "Auto imported from /components/Logo.vue"
+  "LazyBin": {
+    "description": "Auto imported from /components/Bin.vue"
+  },
+  "Header": {
+    "description": "Auto imported from /components/Header.vue"
+  },
+  "LazyHeader": {
+    "description": "Auto imported from /components/Header.vue"
+  },
+  "ProductCard": {
+    "description": "Auto imported from /components/ProductCard.vue"
+  },
+  "LazyProductCard": {
+    "description": "Auto imported from /components/ProductCard.vue"
+  },
+  "Sidebar": {
+    "description": "Auto imported from /components/Sidebar.vue"
+  },
+  "LazySidebar": {
+    "description": "Auto imported from /components/Sidebar.vue"
+  },
+  "Sorter": {
+    "description": "Auto imported from /components/Sorter.vue"
+  },
+  "LazySorter": {
+    "description": "Auto imported from /components/Sorter.vue"
   }
 }

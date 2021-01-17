@@ -1,73 +1,107 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        ida-project
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+  <div class="main">
+    <Header />
+    <main class="main__content data__container">
+      <div class="main__content_meta">
+        <h1 class="meta__content-title">
+          Каталог
+        </h1>
+        <span class="meta__content-sorter">
+          Сортировать по:
+          <span class="meta__content-sorter_variants">
+            цене
+            <img
+              class="variants__arrow"
+              src="../assets/bottom-arrow.svg"
+            />
+          </span>
+        </span>
       </div>
-    </div>
+      <div class="main__content_container">
+        <Sidebar />
+        <div class="container__content">
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+        </div>
+      </div>
+    </main>
   </div>
 </template>
 
 <script>
+import Header from '../components/Header';
+import Sidebar from '../components/Sidebar';
+import ProductCard from '../components/ProductCard';
+
 export default {}
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
+/* GLOBAL STYLES */
+.data__container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1238px;
+}
+
+/* LOCAL STYLES */
+
+/* Meta styles */
+.main__content_title {
+  position: absolute;
+  width: 111px;
+  height: 41px;
+
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 41px;
+
+  color: #1F1F1F;
+}
+.main__content_meta {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+.meta__content-sorter {
+  cursor: pointer;
+}
+.variants__arrow {
+  width: 10px;
+  height: 5px;
+  left: 1347px;
+  top: 118px;
 }
 
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+/* Menu styles */
+.main__content_container {
+  display: flex;
+}
+.container__sidebar {
+  height: 100vh;
+  min-width: 161px;
 }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+/* Content styles */
+.container__content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 </style>
