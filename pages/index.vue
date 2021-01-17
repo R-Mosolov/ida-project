@@ -12,7 +12,7 @@
             цене
             <img
               class="variants__arrow"
-              src="../assets/bottom-arrow.svg"
+              src="../assets/icons/bottom-arrow.svg"
             />
           </span>
         </span>
@@ -35,6 +35,7 @@
           <ProductCard />
           <ProductCard />
         </div>
+        <BinContainer />
       </div>
     </main>
   </div>
@@ -44,6 +45,7 @@
 import Header from '../components/Header';
 import Sidebar from '../components/Sidebar';
 import ProductCard from '../components/ProductCard';
+import BinContainer from '../components/Bin/BinContainer';
 
 export default {}
 </script>

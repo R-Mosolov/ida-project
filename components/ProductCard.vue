@@ -3,7 +3,7 @@
     <div class="product__rating">
       <img
         class="star"
-        src="../assets/star.svg"
+        src="../assets/icons/star.svg"
       />
       <span class="product__rating_mean">
         4.5
@@ -11,7 +11,7 @@
     </div>
     <img
       class="product__bin"
-      src="../assets/bin.svg"
+      src="../assets/icons/bin.svg"
     />
     <img
       class="product__preview"

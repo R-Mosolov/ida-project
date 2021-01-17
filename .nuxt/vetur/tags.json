@@ -1,10 +1,4 @@
 {
-  "Bin": {
-    "description": "Auto imported from /components/Bin.vue"
-  },
-  "LazyBin": {
-    "description": "Auto imported from /components/Bin.vue"
-  },
   "Header": {
     "description": "Auto imported from /components/Header.vue"
   },
@@ -28,5 +22,29 @@
   },
   "LazySorter": {
     "description": "Auto imported from /components/Sorter.vue"
+  },
+  "BinContainer": {
+    "description": "Auto imported from /components/Bin/BinContainer.vue"
+  },
+  "LazyBinContainer": {
+    "description": "Auto imported from /components/Bin/BinContainer.vue"
+  },
+  "Form": {
+    "description": "Auto imported from /components/Bin/Form.vue"
+  },
+  "LazyForm": {
+    "description": "Auto imported from /components/Bin/Form.vue"
+  },
+  "ProductsList": {
+    "description": "Auto imported from /components/Bin/ProductsList.vue"
+  },
+  "LazyProductsList": {
+    "description": "Auto imported from /components/Bin/ProductsList.vue"
+  },
+  "Success": {
+    "description": "Auto imported from /components/Bin/Success.vue"
+  },
+  "LazySuccess": {
+    "description": "Auto imported from /components/Bin/Success.vue"
   }
 }

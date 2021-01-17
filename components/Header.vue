@@ -6,7 +6,7 @@
       </span>
       <img
         class="main__header_bin"
-        src="../assets/bin.svg"
+        src="../assets/icons/bin.svg"
       />
     </div>
   </header>
@@ -30,5 +30,9 @@
   font-size: 22px;
   line-height: 28px;
   color: #59606D;
+  cursor: pointer;
+}
+.main__header_bin {
+  cursor: pointer;
 }
 </style>
